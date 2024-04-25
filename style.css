@@ -1,0 +1,112 @@
+
+/* estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #080808;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    font-family: "Jersey 10", sans-serif;
+    color: #e7e7e7;
+    padding: 10px 40px;
+    font-size: 35px;
+    font-weight: 450;
+    background-color: #FF5757;
+    border: 0;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px  10px #cf0909;
+    transform: scale(1.02);
+}
+
+/* estilo cabeçalho */
+
+header{
+    padding: 10px 5%;
+    background-color: #000000;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 20px;
+    color: #e7e7e7;
+    text-decoration: none;
+    letter-spacing: 5px;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #FF5757;
+    transform: scale(1.1);
+    text-decoration: overline;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+/* estilo do topo */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+section .btn-contato a{
+    transition: 2s;
+    display: inline-block;
+}
+
+.topo-do-site h1{
+    font-size: 42px;
+    color: #e7e7e7;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo h1 span{
+    color: #FF5757;
+}
+
+.topo-do-site p{
+    color: #e7e7e7;
+    margin: 40px 0;
+}
+
+.topo-do-site .txt-topo p span{
+    color: #FF5757;
+}
